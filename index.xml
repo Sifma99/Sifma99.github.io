@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_Index on My New Hugo Site</title>
+    <link>localhost:1313/</link>
+    <description>Recent content in _Index on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jan 2020 07:18:06 +0700</lastBuildDate>
+    
+	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selamat-datang-crypto</title>
+      <link>localhost:1313/selamat-datang-crypto/</link>
+      <pubDate>Wed, 29 Jan 2020 09:04:42 +0700</pubDate>
+      
+      <guid>localhost:1313/selamat-datang-crypto/</guid>
+      <description>Problem:
+selamat-datang-crypto
+Saya mendapatkan sebuah cipher dari suatu tempat u@C6DEJa_`hLrCJ!E_:$7F?N bisa tolong pecahkan?
+Solution:
+u@C6DEJa_`hLrCJ!E_:$7F?N adalah kode yang harus kita pecahkan, untuk memecahkan kode tersebut terdapat beberapa chiper/decoder yang bisa kita gunakan, untuk memecahkannya kita bisa menggunakan Rot47Decoder. Kita tinggal memasukkan kode tersebut dan memilih opsi ROT47 dan mengklik Process it! ,setelah itu flag akan muncul.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>localhost:1313/about/</link>
+      <pubDate>Wed, 29 Jan 2020 06:22:26 +0700</pubDate>
+      
+      <guid>localhost:1313/about/</guid>
+      <description>Web ini dibuat untuk menyelesaikan tugas :)</description>
+    </item>
+    
+    <item>
+      <title>CeTeeF Foresty RequestMe! WriteUp</title>
+      <link>localhost:1313/ceteef-foresty-requestme-writeup/</link>
+      <pubDate>Tue, 28 Jan 2020 15:36:24 +0700</pubDate>
+      
+      <guid>localhost:1313/ceteef-foresty-requestme-writeup/</guid>
+      <description>Problem:
+Web lain ternyata terindikasi mencurigakan, apakah anda dapat mengidentifikasinya ??
+123.123.123.123
+Solution:
+Akses 123.123.123.123 kemudian view page source pada halaman tersebut, setelah membuka source page halaman tersebut terdapat sebuah kode yang terlihat aneh, lalu ambil semua karakter yang berada di kutip berurutan dan akan membentuk !!G4lf_Hal4d4_In1, jika dibalikkan maka akan membentuk 1nI_4d4laH_fl4G!!, masukan kode tersebut ke dalam web, setelah memasukan kode tersebut maka Fleg akan muncul di paling atas.</description>
+    </item>
+    
+  </channel>
+</rss>

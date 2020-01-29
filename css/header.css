@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* HEADER */
+button:not(#close), a:not(#Hugo), button {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161711;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    box-shadow: 0px 10px 10px  #D8D8D8;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display:inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:not(#Hugo):hover {
+    color: #0088a9;
+}
+
+button:not(#close) {
+    margin-left: 20px;
+    padding: 9px 25px;
+    color:white;
+    background-color: rgb(41, 41, 41,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:not(#close):hover {
+    background-color: rgb(41, 41, 41,0.8);
+}
+
+.modal {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 10;
+    background-color: white;
+    border-radius: 20px ;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.contact_list {
+    list-style: none;
+    font-family: 'Heebo', sans-serif;
+}
